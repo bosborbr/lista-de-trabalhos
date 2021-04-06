@@ -3,20 +3,25 @@ body {
     background-color: rgb(234, 255, 255);
 }
 
-
-h3, h6, p {
+img{
+    border: 10px solid silver;
+}
+h3, h6{
     background-color: white;
+    text-align: center;
 }
 h6{
     text-decoration: underline;
 }
 p {
+    background-color: azure;
     border: 2px solid silver;
     color: black;
 }
 p:hover {
 background-color: silver;
 }
-h3:hover {
-    background-color: silver;
-    }
+
+#linha{
+    text-decoration: line-through;
+}
