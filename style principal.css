@@ -4,7 +4,10 @@ body {
 }
 
 img{
+    max-width:100%;
+	height:auto;
     border: 10px solid silver;
+    box-sizing: border-box;
 }
 h3, h6{
     background-color: white;
@@ -14,14 +17,14 @@ h6{
     text-decoration: underline;
 }
 p {
-    background-color: azure;
-    border: 2px solid silver;
+    background-color: white;
+    border: 5px solid silver;
     color: black;
+    margin: 10px 50px 10px 50px;
+    padding: 5px;
+    display: inline-block;
 }
 p:hover {
 background-color: silver;
 }
 
-#linha{
-    text-decoration: line-through;
-}
