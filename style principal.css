@@ -23,6 +23,10 @@ p {
     padding: 5px;
     display: inline-block;
 }
+.sites{
+    display: flex;
+    justify-content: space-around;
+}
 p:hover {
 background-color: silver;
 }
